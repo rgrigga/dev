@@ -99,6 +99,7 @@ Event::listen('500', function($exception)
 Route::filter('before', function()
 {
 	// Do stuff before every request to your application...
+
 });
 
 Route::filter('after', function($response)
@@ -113,9 +114,28 @@ Route::filter('csrf', function()
 
 Route::filter('auth', function()
 {
-	if (Auth::guest()) return Redirect::to('login');
+	if (Auth::guest()) return Redirect::to('home');
 });
 
 
 //http://localhost/index.php/docs/routing#controller-routing
 // Route::controller('admin');
+
+Route::controller('account');
+
+//Route::filter('pattern: admin/*', 'auth');
+
+// This will apply the 'auth' filter to all route URI's that start with admin/.
+
+
+// Route::group(array('before' => 'auth'), function()
+// {
+// 	Route::get('panel', function()
+// 	{
+// 		// do stuff
+// 	});
+// 	Route::get('dashboard', function()
+// 	{
+// 		// do stuff
+// 	});
+// });

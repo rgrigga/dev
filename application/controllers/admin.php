@@ -4,8 +4,8 @@
      
     public function action_index()
     {
-    throw new Exception("Error Processing Request", 1);
-      exception;
+    // throw new Exception("Error Processing Request", 1);
+    //   exception;
     }
      
     }
