@@ -25,6 +25,8 @@ $environments = array(
 
 	'local' => array('http://localhost*', '*.dev'),
 
+  // 'development' => array('http://mort.in' , '*.dev')
+
 );
 
 // --------------------------------------------------------------
@@ -50,7 +52,7 @@ $paths['storage'] = 'storage';
 // --------------------------------------------------------------
 // The path to the public directory.
 // --------------------------------------------------------------
-$paths['public'] = 'public';
+$paths['public'] = 'public_html';
 
 // *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 // END OF USER CONFIGURATION. HERE BE DRAGONS!
@@ -94,6 +96,7 @@ $paths['public'] = 'public';
 // --------------------------------------------------------------
 // Change to the current working directory.
 // --------------------------------------------------------------
+// die("dir is"__DIR__);
 chdir(__DIR__);
 
 // --------------------------------------------------------------

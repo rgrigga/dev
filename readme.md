@@ -1,22 +1,13 @@
-# [Laravel](http://laravel.com) - A PHP Framework For Web Artisans
+# [MyApp](http://mort.in) - group doc app
 
-Laravel is a clean and classy framework for PHP web development. Freeing you
-from spaghetti code, Laravel helps you create wonderful applications using
-simple, expressive syntax. Development should be a creative experience that you
-enjoy, not something that is painful. Enjoy the fresh air.
+This project incomplete.  Please help.
 
-[Official Website & Documentation](http://laravel.com)
+for more info, pleace visit homepage.
 
 ## Feature Overview
 
-- Simple routing using Closures or controllers.
-- Views and templating.
-- Driver based session and cache handling.
-- Database abstraction with query builder.
-- Authentication.
-- Migrations.
-- PHPUnit Integration.
-- A lot more.
+- 1. 
+- 2. 
 
 ## A Few Examples
 
@@ -64,4 +55,4 @@ git commit -s -m "this commit will be signed off automatically!"
 
 ## License
 
-Laravel is open-sourced software licensed under the MIT License.
+ is open-sourced software licensed under the MIT License.

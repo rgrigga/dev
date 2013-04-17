@@ -1,5 +1,15 @@
 <?php
 
+/**g5
+ *
+ * Learn.  Contribute.  This is a living tutorial.  It is your project.
+ * Help someone else if you already know what you're doing.  It is your 
+ * we have people who can help you set this up.  Once you figure it out,
+ * answer a few questions about what you learned to move forward.
+ *
+ * 
+ */
+
 /*
 |--------------------------------------------------------------------------
 | Bundle Configuration
@@ -36,7 +46,9 @@
 return array(
 
 	'docs' => array('handles' => 'docs'),
-'adminify' => array('handles' => 'admin'),
+    'charisma' => array('handles' => 'chadmin'),
+     'adminify' => array('handles' => 'admin'),
+     'myapp' => array('myapp' =>'myapp')
 
 // 'admin' => array('handles' => 'admin'),
 );

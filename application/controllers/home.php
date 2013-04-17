@@ -30,9 +30,85 @@ class Home_Controller extends Base_Controller {
 	|
 	*/
 
+	public function nav($pagename){
+
+	$links=array('home','about','developer','admin','chadmin','rant');
+	$props=array('url','name','active');
+	$active=false;
+
+	$sidenav=array();
+
+		foreach ($links as $item) {
+
+			$url=strtolower($item);
+			$name=ucwords($url);
+
+			if($item == $pagename){
+				$active=true;
+			}
+			else $active=false;
+
+
+			array_push($sidenav,
+				array(
+	                'url' => $url,
+	                'name' => $name,
+	                'active' => $active
+	            )
+	         );
+		}
+
+		return array('sidenav' => $sidenav);
+		//var_dump($sidenav);
+
+		
+			// $myarray= array();
+			
+			 // $myarray);
+
+
+		// $sidenav= array('sidenav' => array(
+	 //            array(
+	 //                'url' => 'home',
+	 //                'name' => 'Home',
+	 //                'active' => false
+	 //            ),
+	 //            array(
+	 //                'url' => 'about',
+	 //                'name' => 'About',
+	 //                'active' => true
+	 //            ),
+	 //            array(
+	 //                'url' => 'admin',
+	 //                'name' => 'Admin',
+	 //                'active' => false
+	 //            )
+  //       	)
+		// );
+	}
+
 	public function action_index()
 	{
 		return View::make('home.index');
+	}
+
+    public function action_about()
+	{
+
+// $var_dump($sidenav);
+		$sidenav=$this->nav('about');
+ 	    return View::make('home.about', $sidenav);
+	    
+	}
+
+	public function action_developer(){
+		$sidenav=$this->nav('developer');
+		return View::make('home.developer', $sidenav );
+	}
+
+	public function action_rant(){
+		$sidenav=$this->nav('rant');
+		return View::make('home.rant', $sidenav );
 	}
 
 }

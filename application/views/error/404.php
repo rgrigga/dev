@@ -97,6 +97,7 @@
 	</style>
 </head>
 <body>
+
 	<div class="wrapper">
 		<div class="error-spacer"></div>
 		<div role="main" class="main">
@@ -120,6 +121,14 @@
 				Perhaps you would like to go to our <?php echo HTML::link('/', 'home page'); ?>?
 			</p>
 		</div>
+			<script type="text/javascript">
+			  var GOOG_FIXURL_LANG = 'en';
+			  var GOOG_FIXURL_SITE = 'http://mort.in'
+			</script>
+			<script type="text/javascript"
+			  src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
+			</script>
+
 	</div>
 </body>
 </html>

@@ -79,9 +79,9 @@ Autoloader::directories(array(
 ));
 
 //http://localhost/index.php/docs/bundles#the-basics
-Autoloader::namespaces(array(
-'Admin' => Bundle::path('admin').'models',
-));
+// Autoloader::namespaces(array(
+// 'Admin' => Bundle::path('adminify').'models',
+// ));
 
 
 /*

@@ -32,11 +32,18 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('home.index');
-});
+//http://net.tutsplus.com/tutorials/php/building-web-applications-from-scratch-with-laravel/
+// Route::get('/', function()
+// {
+// 	return View::make('home.index');
+// });
+Route::controller(Controller::detect());//directs all traffic to all controllers
 
+Route::controller('home');
+
+Route::get('rant', 'home@rant');
+Route::get('about', 'home@about');//home controller, about action
+Route::get('developer', 'home@developer');
 Route::get('guide', function()
 {
 	return View::make('home.guide');
@@ -112,19 +119,44 @@ Route::filter('csrf', function()
 	if (Request::forged()) return Response::error('500');
 });
 
+// Route::filter('auth', function()
+// {
+// 	if (Auth::guest()) return Redirect::to('home');
+// });
+
 Route::filter('auth', function()
 {
-	if (Auth::guest()) return Redirect::to('home');
+    if(Auth::guest()) {
+        return Redirect::to('login');
+    }
 });
+ 
+
+// Route::any('about', function()
+// {
+//     return View::make('home.about');
+// });
+
+Route::any('contact-us', function()
+{
+    return View::make('home.contact-us');
+});
+
+// Route::any('dashboard', array('before' => 'auth', function()
+// {
+//     return View::make('dashboard');
+// });
+
+
+
 
 
 //http://localhost/index.php/docs/routing#controller-routing
 // Route::controller('admin');
 
-Route::controller('account');
+// Route::controller('account');
 
-//Route::filter('pattern: admin/*', 'auth');
-
+// Route::filter('pattern: admin/*', 'auth');
 // This will apply the 'auth' filter to all route URI's that start with admin/.
 
 

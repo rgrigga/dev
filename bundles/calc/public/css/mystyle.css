@@ -1,0 +1,246 @@
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    display: block;
+    font-size: 16px;
+    margin: 0.4em 10% 0.2em;
+    min-height: 1.1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+		img.fullscreen {
+		    max-height: 100%;
+		    max-width: 100%;
+		    min-width: 100%;
+		}
+		/*div.ui-slider{width:80%;}*/
+		/*ui-input-text.ui-slider{width: 60px}*/
+		
+		/* Adjust with of entire slider*/
+		/*.ui-field-contain div.ui-slider {*/
+		/*	display: inline-block;*/
+		/*	width: 69%;*/
+		/*	position:absolute;*/
+		/*	right :0%;*/
+		/*}*/
+		/*.ui-field-contain input.ui-input-text,*/
+		/*ui-field-contain input.ui-input-text,*/
+		
+		/*.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-slider-input {*/
+		/*	background: none repeat scroll 0 0 green;*/
+		/*    }*/
+
+		    .ui-body-c, .ui-overlay-c{
+			text-shadow:none;
+		    }
+		
+		/*.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text, .ui-field-contain .ui-input-search, .ui-field-contain div.ui-input-text{*/
+		/*	width: 60%;*/
+		/*}*/
+		/*div.ui-input-text input.ui-input-text, div.ui-input-text textarea.ui-input-text, .ui-input-search input.ui-input-text{*/
+		/*	width:60%;*/
+		/*	*/
+		/*}*/
+
+		/*.myinput input{*/
+		/*	size: 5em;*/
+		/*}*/
+		.myclass2 label.ui-input-text {
+			width: 4em;
+			position: relative;
+			left: 40px;
+			top: .4em;
+		    }
+		
+		.ui-field-contain {
+			margin: 0;
+			max-width: 100%;
+			padding: 2px;
+		    }
+		
+		.myclass2 div{
+			/*width:60%;*/
+			float: right;
+		}
+		
+		.mylabel{
+			/*float: left;*/
+			/*width: 5em;*/
+			position: absolute;
+			left: 10px;
+		}
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search,*/
+		/**/
+		/**/
+		/*.ui-field-contain div.ui-input-text.ui-field-contain input.ui-input-text,*/
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search,*/
+		/*.ui-field-contain div.ui-input-text.ui-field-contain input.ui-input-text,*/
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search,*/
+		/*.ui-field-contain div.ui-input-text.ui-field-contain input.ui-input-text,*/
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search,*/
+		/*.ui-field-contain div.ui-input-text.ui-field-contain input.ui-input-text,*/
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search,*/
+		/*.ui-field-contain div.ui-input-text.ui-field-contain input.ui-input-text,*/
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search, .ui-field-contain div.ui-input-text.ui-field-contain*/
+		/*input.ui-input-text,*/
+		/*.ui-field-contain textarea.ui-input-text,*/
+		/*.ui-field-contain .ui-input-search, .ui-field-contain div.ui-input-text*/
+		
+		
+		/*.ui-mobile body.ui-mobile-viewport*/
+		/*div.ui-page div.ui-content*/
+		/*form div.ui-field-contain div.ui-input-text,*/
+		
+		
+		/*.ui-mobile .ui-page .ui-slider-input, .ui-mobile .ui-dialog .ui-slider-input, .ui-slider-track, .ui-slider-switch, ui-slider-input*/
+		
+		/* adjusts with of text-input beside slider */
+		.ui-mobile .ui-dialog .ui-slider-input,
+		
+		
+		
+		/*#mcPaymentLabel{*/
+		    width:4em;
+		}
+		
+		.ui-slider-track, .ui-slider-switch{
+			margin: 0 15px 0 3em;
+			width:20%;
+		}
+		/*/* and the switch*/*/
+		/*/*ui-slider-track				{width:40%;}*/*/
+		/*/*.ui-slider-switch 			{width: 40%;}*/*/
+		/*.ui-slider-track, .ui-slider-switch, ui-slider-input	{width: 70%;}*/
+		.ui-slider-input {width:70%}
+		
+		/*width of slider label */
+		/*.ui-field-contain label.ui-input-text,*/
+		.ui-field-contain label,
+		{width: 4em};
+		/*.ui-field-contain label.ui-input-text {width:12%};*/
+		
+		/*div.ui-slider{width:80%;}*/
+		/*.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text, .ui-field-contain .ui-input-search, .ui-field-contain div.ui-input-text{*/
+		/*	float:right;*/
+		/*}*/
+		.ui-field-contain, .ui-mobile fieldset.ui-field-contain{
+			margin:.5em;
+		}
+		
+		.ui-field-contain, fieldset.ui-field-contain {
+		    border-width: 0;
+		    margin: 0;
+		    overflow: visible;
+		    /*padding: 0.8em 0;*/
+		}
+
+		.ui-bar, .ui-body {
+			clear: both;
+			display: block;
+			overflow: hidden;
+			position: relative;
+		    }
+		
+		/*controls left margin of middle column using position relative right */
+	        /*.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text, .ui-field-contain .ui-input-search, .ui-field-contain div.ui-input-text*/
+		.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text,
+		.ui-field-contain .ui-input-search,
+		.ui-field-contain div.ui-input-text
+		div.ui-input-text
+		{
+			/*background-color: red;*/
+			width: 4em;
+			/*position: relative;*/
+			/*right: 1em*/
+		}
+		/*.ui-input-search, div.ui-input-text*/
+		/*div.ui-input-text*/
+		/*.my-list label.ui-input-text  { vertical-align: top;   }*/
+		/*.my-list label.ui-input-text { display: inline-block;*/
+		/*width: 70%;  margin: 0 2% 0 0; }*/
+		/*.my-list input.ui-input-text, */
+		/*.my-list textarea.ui-input-text, */
+		/*.my-list .ui-input-search { width: 50px; display: inline-block; }*/
+		
+		/*#mcPaymentLabel,{*/
+		/*    width:4em;*/
+		/*/*}*/
+		/*html.ui-mobile*/
+		/*body.ui-mobile-viewport*/
+		/*div.ui-page*/
+		/*div.ui-content form*/
+		/*div.ui-field-contain*/
+		/*div.my-list*/
+		/*label*/
+		
+		.ui-content {
+			padding: 1px 10px;
+		    }
+		
+		.ui-field-contain label.ui-input-text {
+		    display: inline-block;
+		    margin: 0 2% 0 0;
+		    vertical-align: top;
+		    /*width: 4em;*/
+		}
+		
+		.ui-input-search input.ui-input-text
+		
+		/*mylabel div{*/
+		/*	width:auto;*/
+		/*}*/
+		
+		/*.ui-hide-label input.ui-input-text,*/
+		/*.ui-hide-label textarea.ui-input-text,*/
+		/*.ui-hide-label .ui-input-search,*/
+		/*.ui-hide-label div.ui-input-text,*/
+		/*.ui-input-search input.ui-input-text,*/
+		/*div.ui-input-text input.ui-input-text*/
+		
+		/*.mortgageAnswer*/
+		/*.myinput*/
+		/*{*/
+		/*	float:left;*/
+		/*	display: inline-block;*/
+		/*	width: 7em;*/
+		/*	color: blue;*/
+		/*}*/
+		/*.mylabel{*/
+		/*	background-color: yellow;*/
+		/*	width: 7em;*/
+		/*	float:left;*/
+		/*}*/
+		/*.mybox{*/
+		/*	float:right;*/
+		/*	background-color: red;*/
+		/*	width: 100px;*/
+		/*}*/
+/*		.leftitem{*/
+/*			    clear: both;*/
+/*    float: left;*/
+/*    width: 50%;*/
+/*			*/
+/*		}*/
+/*		.rightitem{*/
+/*			/*clear: both;*/
+/*			    float: left;*/
+/*    width: 50%*/
+/*		}*/
+
+/********Make the text right-justified in the bottom list */
+div.ui-input-text input.ui-input-text, div.ui-input-text textarea.ui-input-text, .myclass2 input.ui-input-text {
+
+    text-align: right;
+
+}
+
