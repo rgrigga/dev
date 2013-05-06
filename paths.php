@@ -23,9 +23,10 @@
 
 $environments = array(
 
+  //'local' => array('http://mort.in*', '*.dev'),
 	'local' => array('http://localhost*', '*.dev'),
 
-  // 'development' => array('http://mort.in' , '*.dev')
+  'produciton' => array('http://mort.in' , '*.dev')
 
 );
 
